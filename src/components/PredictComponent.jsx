@@ -99,16 +99,18 @@ const PredictComponent = () => {
     <div
       style={{
         display: "flex",
-        justifyContent: "center",
+        justifyContent: "center", 
         alignItems: "center",
         minHeight: "100vh",
       }}
     >
       <Card
         style={{
+          height: "40rem",
           width: "45rem",
           backgroundColor: "#ECEBF4",
           borderRadius: "20px",
+          overflowX: "auto" // Habilita el scroll horizontal
         }}
       >
         <Card.Body>
