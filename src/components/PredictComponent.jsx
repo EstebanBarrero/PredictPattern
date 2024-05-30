@@ -65,7 +65,7 @@ const PredictComponent = () => {
   };
 
   const sendDataToPrediction = (data) => {
-    fetch('https://05cc-35-227-96-234.ngrok-free.app/prediction', {
+    fetch('https://c279-34-31-25-102.ngrok-free.app/prediction', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
